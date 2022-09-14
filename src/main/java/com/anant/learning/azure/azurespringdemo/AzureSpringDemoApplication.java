@@ -9,7 +9,7 @@ public class AzureSpringDemoApplication {
 
 	@GetMapping("/message")
 	public String getMessage(){
-		return "deploy your application on Azure:"
+		return "please! deploy your application on Azure: awaiting"
 	}
 
 	public static void main(String[] args) {
